@@ -103,3 +103,45 @@ body{
 .register-link p a:hover {
     text-decoration: underline;
 }
+@media (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+        margin-top: 20%;
+        padding: 20px;
+    }
+
+    .wrapper h1 {
+        font-size: 28px;
+    }
+
+    .input-box input {
+        font-size: 14px;
+        padding: 15px 40px 15px 15px;
+    }
+
+    .wrapper .btn {
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper {
+        margin-top: 30%;
+        width: 90%;
+        padding: 15px;
+    }
+
+    .wrapper h1 {
+        font-size: 24px;
+    }
+
+    .input-box input {
+        font-size: 12px;
+        padding: 10px 35px 10px 10px;
+    }
+
+    .wrapper .btn {
+        height: 35px;
+        font-size: 14px;
+    }
+}
